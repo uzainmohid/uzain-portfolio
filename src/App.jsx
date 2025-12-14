@@ -586,19 +586,20 @@ const App = () => {
             />
 
             <ProjectCard
-              delay={0.2}
-              badge="Brand · Business · UI"
-              title="Moon Biryani — Digital Restaurant Presence"
-              live="https://moonbiryani.netlify.app/"
-              overview="A modern restaurant website built to showcase brand identity, menu storytelling, and customer engagement for a food business."
-              bullets={[
-                "Business‑first UI design",
-                "Responsive layout",
-                "Production‑ready deployment",
-              ]}
-              stack="HTML, CSS, JavaScript · Netlify"
-            />
-          </motion.div>
+  delay={0.2}
+  badge="NLP · Data · ML"
+  title="US Airline Twitter Sentiment Analysis"
+  github="https://github.com/uzainmohid/sentiment-analysis-task4"
+  overview="A sentiment analysis project on the Twitter US Airline dataset, classifying real customer tweets about major US airlines into positive, neutral, and negative sentiment."
+  bullets={[
+    "Preprocessed raw tweet text (cleaning, tokenization, stopword removal) to make it model‑ready",
+    "Analyzed sentiment distribution across US airlines and visualized key trends with charts and word clouds",
+    "Built and evaluated machine learning models to classify tweet sentiment and extract customer experience insights",
+  ]}
+  stack="Python, pandas, scikit‑learn, NLP preprocessing, data visualization"
+  value="Shows end‑to‑end work on real US airline tweets — from raw text to sentiment insights and business‑ready visualizations."
+/>
+         </motion.div>
         </Section>
 
         {/* How I Work */}
